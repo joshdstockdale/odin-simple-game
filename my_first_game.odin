@@ -184,7 +184,7 @@ main :: proc() {
 			rl.DrawTextureV(platform_texture, platform, rl.WHITE)
 		}
 
-		//rl.DrawRectangleRec(player_feet_collider, {0, 255, 0, 100})
+		// rl.DrawRectangleRec(player_feet_collider, {0, 255, 0, 100})
 		if rl.IsKeyPressed(.F2) {
 			editing = !editing
 		}
